@@ -3,7 +3,7 @@ from telebot import types
 import requests
 
 
-bot = telebot.TeleBot("6966100034:AAFllLNYAmKVbA3Wg3Na3Z7nv3yRbRkaONA", parse_mode=None)
+bot = telebot.TeleBot("7093380846:AAEP2IR34FtQxrkTvz4iTTakqtQTozzSGYc", parse_mode=None)
 
 def get_crypto_prices():
     response = requests.get("https://api.binance.com/api/v3/ticker/price?symbol=BNBUSDT")
